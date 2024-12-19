@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Gulp Roast</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Lato:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #F2F2F2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #082B59;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header img {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .content-text {
+            flex: 1;
+            padding: 20px;
+            max-width: 600px;
+        }
+        .content-text p {
+            color: #131D26;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .content-text a {
+            color: #D98555;
+            text-decoration: none;
+        }
+        .btn-contact {
+            background-color: #D98555;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .btn-contact:hover {
+            background-color: #59331D;
+        }
+        .images {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .images img {
+            width: 48%;
+            border-radius: 10px;
+        }
+        .caption {
+            text-align: center;
+            margin-top: 10px;
+            font-style: italic;
+            color: #131D26;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="https://assets.codepen.io/6306176/gulp-logo-light.png" alt="Gulp Roast Logo">
+        <h1>Welcome to Gulp Roast</h1>
+        <p>Freshly brewed coffee to brighten your day!</p>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul style="list-style-type: none; padding: 0; text-align: center;">
+                <li style="display: inline; margin-right: 20px;"><a href="index.html" style="color: white; text-decoration: none;">Home</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="products.html" style="color: white; text-decoration: none;">Products</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="about.html" style="color: white; text-decoration: none;">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <section>
+        <div class="content">
+            <!-- Products Text -->
+            <div class="content-text">
+                <h2>Our Products</h2>
+                <p>At Gulp Roast, we offer a variety of expertly crafted beverages made with the finest, locally sourced beans. Explore our menu to find your new favorite drink!</p>
+                <p><a href="products.html" class="btn-contact">View Our Full Menu</a></p>
+            </div>
+
+            <!-- Images Section -->
+            <div class="images">
+                <div>
+                    <img src="https://assets.codepen.io/6306176/gulp-espresso.jpg" alt="Espresso">
+                    <p class="caption">Rich, bold espresso</p>
+                </div>
+                <div>
+                    <img src="https://assets.codepen.io/6306176/gulp-latte.jpg" alt="Latte">
+                    <p class="caption">Smooth, creamy latte</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
